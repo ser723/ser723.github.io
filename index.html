@@ -1,43 +1,141 @@
 <!DOCTYPE html>
+<!--
+  Name: Sarah Robinson
+  Date: 09.12.2025
+  CSC 372-01
+
+  This is the index.html page for Campus Foodie, a website showcasing food options near the UNCG campus. Bon appétit!
+-->
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Bio Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
-      background-color: #e2efca;
-    }
-    header {
-      border-bottom: 1px solid #ccc;
-      margin-bottom: 1rem;
-    }
-    h1 {
-      color: teal;
-    }
-    section {
-      background-color: #d398ce;
-      padding: 1rem;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>Campus Foodie</title>
 </head>
 <body>
+    <header>
+        <section>
+            <h1>Welcome to Campus Foodie</h1>
+            <p>Hello! I'm your campus foodie, here to share the best eats around campus. Navigating a busy campus and having many food options can be overwhelming, but don't worry. All of the recommended spots are just a few clicks away from the Petty building. Centrally located, these eateries are perfect for a quick bite between classes or a leisurely meal with friends. From hidden gems to popular spots, I've got you covered!</p>
+        </section>
+    
+    </header>
 
-  <header>
-    <h1>Get to Know Me :)</h1>
-  </header>
+    <main>
+        <h2>Featured Eats</h2>
+        <section id="featured-eats">
+            <div id="flex-container">
+        
+                <article class="flex-item">
+                    <h3>Sushi Republic</h3>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikbD6rU5B4z1cXpCzLidip7Q72CMKxLNkKim0Ey9tUijfkRoowJb5t8Vy9-fqFMT9KqCMtbgLwlht6pPIYMhGTyT8I9OuzFYJuShflpm_OZ4H04YSp8WNQBpMJz2fA92pJ8_Ogf_M1Sc4v/s1600/IMG_4596.jpg" alt="The exterior of Sushi Republic on Tate Street." width="300" height="300">
+                    <p>Located on Tate Street, Sushi Republic is an award-winning sushi restaurant located next to the UNCG campus. Serving both classic Japanese sushi and diverse fusion dishes inspired by different cultures. Dine on creative maki rolls, bento boxes, and noodles.</p>
 
-  <section>
-    <!-- Replace the placeholder text below with your own details -->
-    <h2>Somethings You Might Want to Know....</h2>
-    <p><strong>Name:</strong> Sarah Robinson</p>
-    <p><strong>Bio:</strong> I’m a student learning web development. I enjoy solving problems and building cool things with code.I am currently attending the University of North Carolina in Greensboro, where I am pursuing my Bachelor's degree in Computer Science and plan to graduate May of 2026. Go Spartans! The coding language that I have the most experience with is Java. I have expanded my knowledge by learning Spring, Spring Boot, Javascript, JPA/Hibernate, Git, and Maven. I am excited to collaborate and create meaningful software with others as I start my software engineer internship this fall.</p>
-    <p><strong>You may find me...</strong> Baking bread, making homemade dog treats, playing Hollow Knight, Assembling Legos, gardening, relaxing with a movie, or playing with our dogs!
-  </section>
+                    <div class="dishes-list">
+                        <figure class="dish">
+                            <h4>Shrimp Tempura</h4>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrupe2vaRG8hZDLaB8mwQo5xofy41Tln9S6ZoPt6SKuDW3rm5UoeuWz0cqrsuH5RrdDGBJ_iucOVKx6_WcaDeRCf_khwo8dHf9JYsiH9YijRy55wR9cEF74Oc543LNakAeu4xU4Qw=s680-w680-h510-rw" alt="Crispy shrimp tempura served with dipping sauce." width="300" height="300">
+                            <p>The Shrimp Tempura at Sushi Republic is a must-try! Crispy on the outside, tender on the inside, and served with a delicious dipping sauce.</p>
+                        </figure>
+
+                        <figure class="dish">
+                            <h4>Specialty Sushi Boat</h4>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrEcsoGjdZ98RWbGfDnPFYoDS-qntSg2pIJbgxSuMjpjG9GqXiPXtl0oVDJdUF0vQGE-dpHDIodr-tP9MAwLjLpZayTh9X4c9E5elgif59VJv6mAqOwlZddLaIL8mwCtxNsqlbPWQ=s680-w680-h510-rw" alt="A large wooden boat filled with various sushi rolls and sashimi." width="300" height="300">
+                            <p>Indulge in the Specialty Sushi Boat, featuring an assortment of fresh sushi and sashimi, beautifully presented on a wooden boat.</p>
+                            <figcaption>Credit: Maddie Andres</figcaption>
+                        </figure>
+
+                        <figure class="dish">
+                            <h4>Korean BBQ Tacos</h4>
+                            <img src="https://zonacooks.com/wp-content/uploads/2020/05/Best-Korean-BBQ-Tacos-Dinner-For-Two-7-320x320.jpg.webp" alt="Three Korean BBQ tacos with marinated beef, fresh vegetables, and sauce." width="300" height="300">
+                            <p>Don't miss out on the Korean BBQ Tacos, featuring marinated beef, fresh vegetables, and a zesty sauce, all wrapped in a warm tortilla.</p>
+                            <figcaption>Credit: Zonna Cooks</figcaption>
+                        </figure>
+                        </div>
+                          </article>
+                
+        
+                
+        
+
+                    
+              
+
+                <article class="flex-item">
+                    <h3>Crazy Mexico</h3>
+                    <img src="https://www.visitgreensboronc.com/_images/things-to-do-images/Crazy-Mexico_Gallery-1_Listing-Page_4425.jpg" alt="Crazy Mexico restaurant exterior with a vibrant mural." width="300" height="300">
+                    <p>Crazy Mexico #4 has officially opened its doors at 332 Tate St., marking its first location in Greensboro. Known for its vibrant atmosphere, flavorful dishes, and refreshing margaritas, this restaurant is set to become a go-to destination for UNCG students and locals alike. Whether you’re in the mood for sizzling fajitas, cheesy enchiladas, or their signature Crazy Tacos, there’s something for everyone on the menu. Plus, with its convenient location near campus, it’s the perfect place to grab a bite with friends or enjoy a casual night out.</p>
+
+                    <div class="dishes-list">
+                        <figure class="dish">
+                            <h4>Fajitas</h4>
+                            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/ogp577B6QkKqJ1qAGh0ypg/o.jpg" alt="A sizzling plate of fajitas with chicken, peppers, and onions." width="300" height="300">
+                            <p>A must try at Crazy Mexico, the fajitas are served sizzling hot with a variety of toppings!</p>
+                            <figcaption>Credit: Steven E.</figcaption>
+                        </figure>
+
+                        <figure class="dish">
+                            <h4>ACP Tacos</h4>
+                            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/Kw0Og7HuxhoBWQvdAAbagA/o.jpg" alt="Three tacos with grilled chicken, avocado, and sauce." width="300" height="300">
+                            <p>Try the ACP Tacos, featuring grilled chicken, avocado, and a zesty chipotle sauce, all wrapped in a warm tortilla.</p>
+                            <figcaption>Credit: Vanessa R.</figcaption>
+                        </figure>
+
+                        <figure class="dish">
+                            <h4>Raspberry Margarita</h4>
+                            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/ycxTZLFSerPQax-LGGUBjQ/o.jpg" alt="A bright red raspberry margarita with a salt rim." width="300" height="300">
+                            <p>Don't leave Crazy Mexico without trying one of these Raspberry Margaritas. They're the perfect blend of sweet and tart, served over ice with a salt rim.</p>
+                            <figcaption>Credit: Sabrina M.</figcaption>
+                        </figure>
+                    </div>
+                </article>
+
+                <article class="flex-item">
+                    <h3>Tate Street Coffee House</h3>
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4no5-tMXi7eOnbzpGzw5Jm0J6wUMYiT9CysiZB2X8YXmpj5i3aPd7FKjhmc_3afPFQpKj0hgGgNv-7FgtX-R06Uyzzywuj8Gs7OcT7OceK7uGFF-36KH0WncBzNoOEat8UT11yM=w289-h312-n-k-no" alt="The welcoming storefront of Tate Street Coffee House." width="300" height="300">
+                    <p><strong>Waking up Greensboro since 1993.</strong> Conveniently located near the University of North Carolina at Greensboro, Tate Street Coffee House is the perfect spot to enjoy a warm cup of coffee to wake you up in the morning, keep you going through the afternoon or power you well into the night. Open from 6:30am to 5:00pm daily, our cozy spot will be your new favorite relaxing retreat. We serve breakfast favorites like bagels, muffins and pastries, hearty lunchtime options and decadent desserts.</p>
+
+                    <div class="dishes-list">
+                        <figure class="dish">
+                            <h4>Cinnamon Roll</h4>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nomODo8Ew65mrQZKm8F8FUQCFuoHdaJfgYyHjM6Y7kTIZftb2PwsPRaDFNS4Os560LUTjnrBuofpXuFx1WdlHxyJk5bIXJB1kGSHVU-VGT3eQVSgA47Qx3PmCABpBOWD_p-BSvO=s680-w680-h510-rw" alt="A warm, freshly baked cinnamon roll with icing." width="300" height="300">
+                            <p>MENU HIGHLIGHT: Don't leave Tate Street Coffee without trying one of these Cinnamon Rolls. They are incredibly moist and packed with flavor!</p>
+                            <figcaption>Credit: Ja'Nyla</figcaption>
+                        </figure>
+
+                        <figure class="dish">
+                            <h4>Cortado</h4>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrQAAR0vnwdE9FPNDsz_MbwfVPNujMivs-jaYnY0Ud2Wak6nlB_QqgCH5kpWgRkqran8IQJnayUeO3UEYnRZiP8EAp0iae2fE2uaxtHClm2oezq0qvvZ5_fvoeS6QMwuKyuSxT8=s680-w680-h510-rw" alt="A small glass of a cortado, a coffee drink with espresso and steamed milk." width="300" height="300">
+                            <p>Try a Cortado for a perfectly balanced coffee experience!</p>
+                            <figcaption>Credit: Naide Obiang</figcaption>
+                        </figure>
+
+                        <figure class="dish">
+                            <h4>Egg Spinach Bagel Sandwich</h4>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4npfBH3xggTx1nxbgi-fTy9v-GFKznIaeeFenAN4-VJ2lsLSdwKtnZSmV4gOLVfzBPvShIbcKazqx3Hur0FNuPhvs8ve-6b109fnivv81XMaVCfpYjsgzsnF7dWZHEnYX4YYnPZ8=s680-w680-h510-rw" alt="An egg and spinach bagel sandwich on a plate." width="300" height="300">
+                            <p>Don't miss out on the freshly baked Egg Spinach Bagel Sandwich at Tate Street Coffee. It's the perfect combination of flavors and textures! *Vegan Cream Cheese Option</p>
+                            <figcaption>Credit: Ian Gilmartin</figcaption>
+                        </figure>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <aside>
+            <h2>More Quick Bites</h2>
+            <ul>
+                <li><a href="#">Panda Express</a> - Fast-casual Chinese food.</li>
+                <li><a href="#">CRAVE</a> - Creative sandwiches and salads.</li>
+                <li><a href="#">Chick-fil-A</a> - Fresh chicken sandwiches and waffle fries.</li>
+            </ul>
+        </aside>
+    </main>
 
 </body>
+<footer>
+    <p>© 2025 Campus Foodie. All rights reserved.</p>   
+</footer>
 </html>
+
